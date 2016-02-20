@@ -1,0 +1,4 @@
+Bundle-SymbolicName: abc.test
+Export-Package: abc.test
+Bundle-Activator: abc.test.Activator
+-runpath: org.apache.felix.main
