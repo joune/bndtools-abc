@@ -2,3 +2,4 @@ Bundle-SymbolicName: abc.test
 Export-Package: abc.test
 Bundle-Activator: abc.test.Activator
 -runpath: org.apache.felix.main
+Test-Cases : ${classes;extending;junit.framework.TestCase;concrete}
