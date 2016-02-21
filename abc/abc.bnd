@@ -1,3 +1,0 @@
-Bundle-SymbolicName: abc
-Export-Package: abc
-Bundle-Activator: abc.Activator

@@ -8,19 +8,19 @@ buildscript {
   }
 }
 
-/* Configure the subprojects */
 subprojects {
-  apply plugin: 'biz.aQute.bnd'
 
-  repositories {
-    mavenCentral()
-  }
+  apply plugin: 'biz.aQute.bnd.builder'
+
+  version = '1.0.0'
+
+    repositories {
+      mavenCentral()
+    }
 
   dependencies {
     compile 'org.apache.felix:org.apache.felix.main:5.4.0',
             'org.osgi:org.osgi.compendium:5.0.0',
             'org.apache.felix:org.apache.felix.dependencymanager:4.2.0'
-
-    testCompile 'junit:junit:4.12'
   }
 }
